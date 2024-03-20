@@ -1,26 +1,4 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//     const gallery = document.querySelector('.photo-gallery');
 
-//     // Assuming you have an array of photo URLs
-//     const photoUrls = ['https://static01.nyt.com/images/2022/01/31/crosswords/31meme-wordplay/31meme-wordplay-articleLarge.png?quality=75&auto=webp&disable=upscale'
-//     , 'https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/70e565ff687043e10e150e23d0ae5ea2.png'
-//     , 'https://media.cnn.com/api/v1/images/stellar/prod/230721145700-cheezburger-cat-meme.jpg?c=16x9&q=h_833,w_1480,c_fill'
-//     ,'asdasdas'
-// ,'https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/70e565ff687043e10e150e23d0ae5ea2.png'
-// ,'https://static01.nyt.com/images/2022/01/31/crosswords/31meme-wordplay/31meme-wordplay-articleLarge.png?quality=75&auto=webp&disable=upscale'
-// , 'https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/70e565ff687043e10e150e23d0ae5ea2.png'
-
-// ,'https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/70e565ff687043e10e150e23d0ae5ea2.png']; // Add your photo URLs here
-
-//     for (let i = 0; i < 20; i++) { // Creating 10 rows of 3 photos each
-//         let photo = document.createElement('div');
-//         photo.className = 'photo';
-//         photo.innerHTML = `<img src="${photoUrls[i % photoUrls.length]}" alt="Meme Photo">`;
-//         gallery.appendChild(photo);
-//     }
-
-    
-// });
 
 
 document.addEventListener('DOMContentLoaded', function() {
