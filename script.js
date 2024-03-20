@@ -56,27 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 15000); // Continue to flip and now spin every 5 seconds
 });
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     const textElement = document.getElementById('dynamic-text');
-//     const sentence = "XA XA NO staking for you!!! "; // Your sentence
-//     const words = sentence.split(' '); // Split sentence into words
-//     let currentWordIndex = 0; // Tracker for the current word
 
-//     function displayNextWord() {
-//         if (currentWordIndex < words.length) {
-//             textElement.textContent += words[currentWordIndex] + ' '; // Add next word
-//             currentWordIndex++; // Move to next word
-//         } else {
-//             textElement.textContent = ''; // Reset text
-//             currentWordIndex = 0; // Start over
-//         }
-//     }
-
-//     // Initial call to start displaying words
-//     displayNextWord();
-//     // Set interval to call function every 3 seconds
-//     setInterval(displayNextWord, 1000);
-// });
 
 document.addEventListener('DOMContentLoaded', () => {
     const textElement = document.getElementById('dynamic-text');
